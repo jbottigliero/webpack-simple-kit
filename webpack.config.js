@@ -6,8 +6,8 @@ let configuration = {
   entry: './source/index.js',
   
   output: {
-    filename: '[name].bundle.js',
-    path: './build'
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'build')
   },
   
   module: { 
